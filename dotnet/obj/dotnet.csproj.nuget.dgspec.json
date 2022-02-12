@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/lbluz/Documents/GEO_OptimizationAlgorithms/src/cpp/dotnet/dotnet.csproj": {}
+    "/home/lbluz/Documents/GEO_OptimizationAlgorithms/CEC2017_linux_cpp_csharp_integration/dotnet/dotnet.csproj": {}
   },
   "projects": {
-    "/home/lbluz/Documents/GEO_OptimizationAlgorithms/src/cpp/dotnet/dotnet.csproj": {
+    "/home/lbluz/Documents/GEO_OptimizationAlgorithms/CEC2017_linux_cpp_csharp_integration/dotnet/dotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lbluz/Documents/GEO_OptimizationAlgorithms/src/cpp/dotnet/dotnet.csproj",
+        "projectUniqueName": "/home/lbluz/Documents/GEO_OptimizationAlgorithms/CEC2017_linux_cpp_csharp_integration/dotnet/dotnet.csproj",
         "projectName": "dotnet",
-        "projectPath": "/home/lbluz/Documents/GEO_OptimizationAlgorithms/src/cpp/dotnet/dotnet.csproj",
+        "projectPath": "/home/lbluz/Documents/GEO_OptimizationAlgorithms/CEC2017_linux_cpp_csharp_integration/dotnet/dotnet.csproj",
         "packagesPath": "/home/lbluz/.nuget/packages/",
-        "outputPath": "/home/lbluz/Documents/GEO_OptimizationAlgorithms/src/cpp/dotnet/obj/",
+        "outputPath": "/home/lbluz/Documents/GEO_OptimizationAlgorithms/CEC2017_linux_cpp_csharp_integration/dotnet/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/lbluz/.nuget/NuGet/NuGet.Config"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.405/RuntimeIdentifierGraph.json"
         }
       }
     }

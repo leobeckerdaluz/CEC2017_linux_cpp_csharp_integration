@@ -1,3 +1,0 @@
-/home/lbluz/Documents/GEO_OptimizationAlgorithms/src/cpp/cpp/CMakeFiles/rebuild_cache.dir
-/home/lbluz/Documents/GEO_OptimizationAlgorithms/src/cpp/cpp/CMakeFiles/edit_cache.dir
-/home/lbluz/Documents/GEO_OptimizationAlgorithms/src/cpp/cpp/CMakeFiles/hello-cpp.dir
