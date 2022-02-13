@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/lbluz/Documents/GEO_OptimizationAlgorithms/CEC2017_linux_cpp_csharp_integration/cpp/CEC2017.cpp
+/home/lbluz/Documents/GEO_OptimizationAlgorithms/src/CEC2017_linux_cpp_csharp_integration/cpp/CEC2017.cpp
 CEC2017.h
-/home/lbluz/Documents/GEO_OptimizationAlgorithms/CEC2017_linux_cpp_csharp_integration/cpp/CEC2017.h
+/home/lbluz/Documents/GEO_OptimizationAlgorithms/src/CEC2017_linux_cpp_csharp_integration/cpp/CEC2017.h
 iostream
 -
 stdio.h
@@ -18,5 +18,5 @@ cmath
 malloc.h
 -
 
-/home/lbluz/Documents/GEO_OptimizationAlgorithms/CEC2017_linux_cpp_csharp_integration/cpp/CEC2017.h
+/home/lbluz/Documents/GEO_OptimizationAlgorithms/src/CEC2017_linux_cpp_csharp_integration/cpp/CEC2017.h
 

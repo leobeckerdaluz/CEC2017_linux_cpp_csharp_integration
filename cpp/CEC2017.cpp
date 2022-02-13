@@ -16,7 +16,7 @@
 #include <iostream>
 
 
-#define FUNCTIONS_INPUT_PATH "/home/lbluz/Documents/GEO_OptimizationAlgorithms/CEC2017_linux_cpp_csharp_integration/cpp"
+#define FUNCTIONS_INPUT_PATH "/home/lbluz/Documents/GEO_OptimizationAlgorithms/src/CEC2017_linux_cpp_csharp_integration/cpp"
 
 
 

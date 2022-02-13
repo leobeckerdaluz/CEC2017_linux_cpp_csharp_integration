@@ -1,9 +1,11 @@
-# rm -r CMakeCache.txt CMakeFiles/ cmake_install.cmake Makefile
+# Before run script.sh ==> chmod +x script.sh
+
+rm -r CMakeCache.txt
 
 cmake .
 
+# Compile to Linux
 make -j$(grep -c ^processor /proc/cpuinfo)
 
-
-
-# chmod +x script-name-here.sh
+# Compile to Linux
+# - make -j$(sysctl hw.ncpu | cut -d: -f2)

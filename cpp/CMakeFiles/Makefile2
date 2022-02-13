@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lbluz/Documents/GEO_OptimizationAlgorithms/CEC2017_linux_cpp_csharp_integration/cpp
+CMAKE_SOURCE_DIR = /home/lbluz/Documents/GEO_OptimizationAlgorithms/src/CEC2017_linux_cpp_csharp_integration/cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lbluz/Documents/GEO_OptimizationAlgorithms/CEC2017_linux_cpp_csharp_integration/cpp
+CMAKE_BINARY_DIR = /home/lbluz/Documents/GEO_OptimizationAlgorithms/src/CEC2017_linux_cpp_csharp_integration/cpp
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/cec2017_functions.dir/clean
 CMakeFiles/cec2017_functions.dir/all:
 	$(MAKE) -f CMakeFiles/cec2017_functions.dir/build.make CMakeFiles/cec2017_functions.dir/depend
 	$(MAKE) -f CMakeFiles/cec2017_functions.dir/build.make CMakeFiles/cec2017_functions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lbluz/Documents/GEO_OptimizationAlgorithms/CEC2017_linux_cpp_csharp_integration/cpp/CMakeFiles --progress-num=1,2 "Built target cec2017_functions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lbluz/Documents/GEO_OptimizationAlgorithms/src/CEC2017_linux_cpp_csharp_integration/cpp/CMakeFiles --progress-num=1,2 "Built target cec2017_functions"
 .PHONY : CMakeFiles/cec2017_functions.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cec2017_functions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lbluz/Documents/GEO_OptimizationAlgorithms/CEC2017_linux_cpp_csharp_integration/cpp/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lbluz/Documents/GEO_OptimizationAlgorithms/src/CEC2017_linux_cpp_csharp_integration/cpp/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cec2017_functions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lbluz/Documents/GEO_OptimizationAlgorithms/CEC2017_linux_cpp_csharp_integration/cpp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lbluz/Documents/GEO_OptimizationAlgorithms/src/CEC2017_linux_cpp_csharp_integration/cpp/CMakeFiles 0
 .PHONY : CMakeFiles/cec2017_functions.dir/rule
 
 # Convenience name for target.

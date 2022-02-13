@@ -6,7 +6,8 @@ https://medium.com/@xaviergeerinck/how-to-bind-c-code-with-dotnet-core-157a121c0
 Esse repositório consiste em utilizar funções do CEC2017 desenvolvidas em C++ no projeto dotnet console em C#. 
 Para isso, é preciso compilar o código C++ e gerar uma biblioteca dinâmica no formato .so (para linux) ou .dll (para windows) e importar no C#.
 
-### Etapas para compilação:
+
+### Etapas para compilação do cpp:
 #### 1) Alteração do arquivo cpp
 O Arquivo cpp das funções necessita abrir arquivos da pasta input_data/. Para isso, foi criado uma diretiva #define chamada FUNCTIONS_INPUT_PATH que contém uma string com o path onde a pasta **input_data** está localizada, sem o '/' no fim. Por exemplo: "/home/lbluz/CEC2017_linux_cpp_csharp_integration/cpp"
 
@@ -22,3 +23,7 @@ cmake .
     - make -j$(sysctl hw.ncpu | cut -d: -f2)
 - Linux: Build with all cores available
     - make -j$(grep -c ^processor /proc/cpuinfo)
+
+
+### Etapas para execução do código C#:
+A pasta 'dotnet' já contém um projeto do tipo 'console'. Portanto, para executá-lo é só ter o framework .NET instalado e executar o comando 'dotnet run' na linha de comando, ou abrir projeto com os softwares Visual Studio ou VSCode.
