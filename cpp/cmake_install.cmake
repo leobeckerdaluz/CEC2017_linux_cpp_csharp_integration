@@ -1,4 +1,4 @@
-# Install script for directory: /home/lbluz/Documents/GEO_OptimizationAlgorithms/CEC2017_linux_cpp_csharp_integration/cpp
+# Install script for directory: /home/lbluz/Documents/GEO_OptimizationAlgorithms/src/CEC2017_linux_cpp_csharp_integration/cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lbluz/Documents/GEO_OptimizationAlgorithms/CEC2017_linux_cpp_csharp_integration/cpp/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lbluz/Documents/GEO_OptimizationAlgorithms/src/CEC2017_linux_cpp_csharp_integration/cpp/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
