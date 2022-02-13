@@ -98,13 +98,6 @@ extern "C" {
 	}
 
 
-	void PrintHelloWorld2(int a, double b){
-		std::cout << "Hello!" << std::endl;
-		std::cout << a << ", " << b << std::endl;
-		std::cout << "soma: " << a+b << std::endl;
-	}
-
-
 	void cec17_test_func(double *x, double *f, int nx, int mx, int func_num)
 	{
 		int cf_num = 10, i, j;
@@ -139,7 +132,6 @@ extern "C" {
 			{
 				std::cout << "\nError: hf01,hf02,hf03,hf04,hf05,hf06,cf07&cf08 are NOT defined for D=2.\n";
 			}
-
 
 
 			/* Load Matrix M*/
@@ -258,24 +250,13 @@ extern "C" {
 			//printf("Function has been initialized!\n");
 		}
 
-
 		for (i = 0; i < mx; i++)
 		{
-			
-			// std::cout << "laço "<<i<<"  | fx: "<<f[i] << std::endl;
-
-
 			switch (func_num)
 			{
 			case 1:
-				
-				// std::cout << "case1 fx: " << f[i] << std::endl;
-				
 				bent_cigar_func(&x[i*nx], &f[i], nx, OShift, M, 1, 1);
 				f[i] += 100.0;
-				
-				// std::cout << "break fx: " << f[i] << std::endl;
-				
 				break;
 			case 2:
 				//sum_diff_pow_func(&x[i*nx],&f[i],nx,OShift,M,1,1);
