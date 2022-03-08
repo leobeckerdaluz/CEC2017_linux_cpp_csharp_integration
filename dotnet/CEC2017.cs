@@ -12,9 +12,9 @@ namespace CppBind
 {
     public class CEC2017
     {
-        [DllImport(@"../cpp/libcec2017_functions.so")]
+        [DllImport("/home/lbluz/git/GEO_OptimizationAlgorithms/src/CEC2017_linux_cpp_csharp_integration/cpp/libcec2017_functions.so")]
+        // Se mudar o diretório aqui, tem que mudar e recompilar o cpp
         public unsafe static extern void cec17_test_func(double *x, double *f, int nx, int mx, int func_num);
-        
 
 
         public static double cec2017_run_function(double[] phenotype, int function_id, int dimension)
